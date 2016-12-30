@@ -7,8 +7,7 @@ public class Point {
     private double x = 0; // abscissa of the point.
     private double y = 0; // ordinate of the point.
 
-    // The default constructor to create a point with the user-specified
-    // coordinates.
+    // The default constructor to create a point with the user-specified coordinates.
     public Point() {
         boolean error;
         do {
