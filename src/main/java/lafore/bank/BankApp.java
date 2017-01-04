@@ -1,23 +1,4 @@
-class BankAccount {
-
-    private double balance; // account balance
-
-    public BankAccount(double balance) { // constructor
-        this.balance = balance;
-    }
-
-    public void deposit(double amount) {
-        balance += amount;
-    }
-
-    public void withdraw(double amount) {
-        balance -= amount;
-    }
-
-    public void display() {
-        System.out.println("balance=" + balance);
-    }
-}
+package lafore.bank;
 
 class BankApp {
 
@@ -36,7 +17,7 @@ class BankApp {
         System.out.print("After transactions, ");
         ba1.display();
 
-        if (ba1 == ba2) {
+        if (ba1 == ba2) { //--
             System.out.println("They are equal");
         }
 
